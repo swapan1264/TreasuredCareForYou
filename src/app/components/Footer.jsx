@@ -13,7 +13,7 @@ export default function Footer() {
             We ensure every individual is a valued member of our community, and
             every support plan is as unique as you are. With over two decades of
             experience in support work and a deep, personal connection to the
-            NDIS, we're here to empower you and your loved ones to live life to
+            NDIS, we&apos;re here to empower you and your loved ones to live life to
             its fullest potential.
           </p>
           <Image

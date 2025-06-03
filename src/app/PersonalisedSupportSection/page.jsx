@@ -19,8 +19,8 @@ export default function PersonalisedSupportSection() {
             Personalised Support
           </h2>
           <p className="text-paragraph text-lg leading-relaxed">
-            At Treasured Care For You, we understand that independence doesn't look
-            the same for everyone. That's why our services are designed to adapt to your
+            At Treasured Care For You, we understand that independence doesn&apos;t look
+            the same for everyone. That&apos;s why our services are designed to adapt to your
             individual needs and aspirations. Our dedicated team is here to provide the
             support you need in the way that works best for you.
           </p>

@@ -189,7 +189,7 @@ export default function ContactPage() {
             <p className="text-base leading-relaxed text-center md:text-left">
               Your feedback and questions are valuable to us. They help us to
               continually improve our services and understand how we can better
-              support you. Don't hesitate to reach out, we're here to listen and
+              support you. Don&apos;t hesitate to reach out, we&apos;re here to listen and
               assist in any way we can.
             </p>
           </div>

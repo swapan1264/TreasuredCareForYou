@@ -174,7 +174,7 @@ export default function Resources() {
                 living arrangements, and health and wellbeing.
               </li>
               <li>
-                • It's important to regularly review your plan to ensure it
+                • It&apos;s important to regularly review your plan to ensure it
                 continues to meet your needs.
               </li>
             </ul>
