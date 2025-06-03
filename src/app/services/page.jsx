@@ -163,7 +163,7 @@ export default function Services() {
         <div className="max-w-[42rem]">
           <h3 className="text-4xl md:text-5xl font-bold mb-4 text-center md:text-left">Get Started Today</h3>
           <p className="text-lg leading-relaxed">
-          At Treasured Care For You, we believe in empowering individuals to lead fulfilling lives with the support and care personalised just for them. Discover how "Treasured Care For You" can support your journey to greater independence and community participation.
+          At Treasured Care For You, we believe in empowering individuals to lead fulfilling lives with the support and care personalised just for them. Discover how &quot;Treasured Care For You&quot; can support your journey to greater independence and community participation.
           </p>
         </div>
 
