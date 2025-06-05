@@ -51,7 +51,7 @@ export default function HeroSection() {
       `}
       style={{ backgroundImage: `url(${image})` }}
     >
-      <div className="relative max-w-3xl md:ml-16 ml-4 px-4 text-white">
+      <div className="relative max-w-3xl md:ml-16  px-4 text-white">
         <h1 className="text-5xl md:text-6xl font-bold font-heading">
           {heading}
         </h1>
