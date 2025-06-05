@@ -102,7 +102,7 @@ export default function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <p className="text-pink text-sm text-center md:text-left">
+        <p className="text-pink text-sm text-center md:text-left"> 
           Website Design By Neeraj Manchanda © 2025
         </p>
       </a>
