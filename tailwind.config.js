@@ -28,7 +28,8 @@ module.exports = {
         pink: "#CB519E",
         light: "rgb(249, 250, 251)",
         paragraph: "#707070",
-        black: "#363636"
+        black: "#363636",
+        white: "#f7f7f7"
       },
       boxShadow: {
         custom: "0 4px 9px rgba(202, 87, 159, 0.2)",

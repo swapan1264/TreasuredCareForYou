@@ -4,8 +4,8 @@ import "./globals.css";
 import { Montserrat, Lora } from 'next/font/google'
 
 export const metadata = {
-  title: 'Empowering Independence with Compassionate Support',
-  description: 'Discover a community where independence is cherished. Treasured Care For You provides dedicated support tailored to your needs under the NDIS.',
+  title: 'Empowering Independence with Personalised NDIS Support | Treasured Care For You',
+  description: 'Discover a community where independence is cherished. Treasured Care For You offers personalised NDIS support in a caring and welcoming environment for individuals and families',
 };
 
 export default function RootLayout({ children }) {

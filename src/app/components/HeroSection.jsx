@@ -31,7 +31,7 @@ export default function HeroSection() {
     "/contact": {
       heading: "We're Here to Support Your Journey",
       para: "At Treasured Care For You, we understand that every journey is unique, and sometimes you might need a bit of guidance along the way. Whether you have questions about our services, need assistance with your NDIS plan, or simply want to learn more about how we can support you or your loved ones, our friendly team is here to help. ",
-      image: "/contactus.jpg",
+      image: "/contact.jpg",
     },
   };
 
@@ -47,7 +47,7 @@ export default function HeroSection() {
         md:h-screen 
         bg-cover bg-no-repeat bg-center
         flex items-center
-        before:content-[''] before:absolute before:inset-0 before:bg-black/50
+        before:content-[''] before:absolute before:inset-0 before:bg-black/40
       `}
       style={{ backgroundImage: `url(${image})` }}
     >

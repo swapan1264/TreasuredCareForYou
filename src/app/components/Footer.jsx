@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#FAFAFA] text-[#333] px-6 sm:px-10 lg:px-20 pt-28 pb-8">
+    <footer className="bg-white text-[#333] px-6 sm:px-10 lg:px-20 pt-28 pb-8">
       <div className="flex flex-col lg:flex-row lg:justify-between">
         {/* Left Column */}
         <div className="flex-1 max-w-xl mb-10 lg:mb-0">
@@ -13,8 +13,8 @@ export default function Footer() {
             We ensure every individual is a valued member of our community, and
             every support plan is as unique as you are. With over two decades of
             experience in support work and a deep, personal connection to the
-            NDIS, we&apos;re here to empower you and your loved ones to live life to
-            its fullest potential.
+            NDIS, we&apos;re here to empower you and your loved ones to live
+            life to its fullest potential.
           </p>
           <Image
             src="/ilovendis.png"
@@ -50,6 +50,22 @@ export default function Footer() {
                 {" "}
                 <li className="font-semibold">Contact Us</li>{" "}
               </a>
+              <a href="/ourservices">
+                {" "}
+                <li className="font-semibold">Our Services</li>{" "}
+              </a>{" "}
+              <a href="/experience">
+                {" "}
+                <li className="font-semibold">Experience</li>{" "}
+              </a>{" "}
+              <a href="/support">
+                {" "}
+                <li className="font-semibold">Support</li>{" "}
+              </a>{" "}
+              <a href="/joinus">
+                {" "}
+                <li className="font-semibold">Join Us</li>{" "}
+              </a>
             </ul>
           </div>
 
@@ -81,9 +97,13 @@ export default function Footer() {
       </div>
       {/* Divider and Bottom Line */}
       <hr className="border-t border-pink mt-16 mb-4" />
-      <a href="mailto:neerajm1264@gmail.com">
+      <a
+        href="https://my-portfolio-nine-ochre-91.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <p className="text-pink text-sm text-center md:text-left">
-          Website Design By Provider Digital © 2024
+          Website Design By Neeraj Manchanda © 2025
         </p>
       </a>
     </footer>

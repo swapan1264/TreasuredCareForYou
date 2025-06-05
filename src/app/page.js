@@ -5,10 +5,10 @@
 import HeroSection from "./components/HeroSection";
 // import VisionMission from "./components/VissionMission";
 // import WelcomeMessage from "./components/Welcome";
-import ExperienceSection from "./ExperienceSection/page";
-import JoinUsSection from "./JoinUsSection/page";
-import PersonalisedSupportSection from "./PersonalisedSupportSection/page";
-import ServicesPage from "./mainservices/page";
+import ExperienceSection from "./experience/page";
+import JoinUsSection from "./joinus/page";
+import PersonalisedSupportSection from "./support/page";
+import ServicesPage from "./ourservices/page";
 
 export default function HomePage() {
   return (

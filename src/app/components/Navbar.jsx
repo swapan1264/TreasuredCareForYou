@@ -43,7 +43,7 @@ export default function Navbar() {
             className="text-black text-xl md:text-2xl font-bold tracking-tight transition-colors duration-200"
           >
             <img
-              src="/logo.png"
+              src="/header-logo-bgremove.png"
               alt="logo"
               className="w-40 md:w-72 rounded-full"
             />
