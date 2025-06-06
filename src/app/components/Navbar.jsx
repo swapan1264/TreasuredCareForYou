@@ -27,11 +27,11 @@ export default function Navbar() {
   return (
     <>
       <nav className="w-full bg-pink py-4 shadow-lg z-20 flex justify-center hidden md:flex">
-        <div className="test-white">
-          <a href="tel:+610392679030" className="mr-8">
+        <div>
+          <a href="tel:+610392679030" className="mr-8 text-white">
             Phone: 03 9267 9030
           </a>
-          <a href="mailto:Enquiries@treasuredcareforyou.com">
+          <a href="mailto:Enquiries@treasuredcareforyou.com" className="text-white">
             Email: enquiries@treasuredcareforyou.com
           </a>
         </div>
