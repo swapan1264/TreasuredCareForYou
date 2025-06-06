@@ -72,13 +72,13 @@ export default function Footer() {
           {/* Right Column - Contact */}
           <div>
             <h3 className="text-pink font-semibold text-lg mb-4">Contact</h3>
-            <p className="text-paragraph">
+            {/* <p className="text-paragraph">
               Ground Floor, Suite 16 / 18
               <br />
               Synnot Street, Werribee
               <br />
               Victoria, Australia
-            </p>
+            </p> */}
             <p>
               <a
                 href="mailto:Enquiries@treasuredcareforyou.com"

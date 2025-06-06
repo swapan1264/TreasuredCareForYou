@@ -23,7 +23,9 @@ export default function ContactPage() {
   };
 
   const validateForm = () => {
-    return formData.name && formData.email && formData.phone && formData.message;
+    return (
+      formData.name && formData.email && formData.phone && formData.message
+    );
   };
 
   const handleSubmit = async (e) => {
@@ -62,7 +64,7 @@ export default function ContactPage() {
     <>
       {pathname === "/contact" && <HeroSection />}
 
- <ToastContainer />
+      <ToastContainer />
       <section className="bg-gray-50 py-16 md:py-32 px-4 sm:px-6 lg:px-16">
         <div className="">
           {/* Title & Description */}
@@ -157,21 +159,25 @@ export default function ContactPage() {
           </h2>
 
           {/* Address */}
-          <p className="text-paragraph leading-relaxed">
+          {/* <p className="text-paragraph leading-relaxed">
             Ground Floor, Suite 16 / 18
             <br />
             Synnot Street, Werribee
             <br />
             Victoria, Australia
-          </p>
+          </p> */}
 
           {/* Email */}
           <p className="mt-4 text-pink font-medium">
-            enquiries@treasuredcareforyou.com
+            <a href="mailto:Enquiries@treasuredcareforyou.com">
+              enquiries@treasuredcareforyou.com
+            </a>
           </p>
 
           {/* Phone */}
-          <p className="text-pink font-medium mt-1">03 9267 9030</p>
+          <p className="text-pink font-medium mt-1">
+            <a href="tel:+610392679030">03 9267 9030 </a>
+          </p>
 
           {/* Admin Hours */}
           <div className="mt-8">
@@ -185,20 +191,22 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center">
           {/* Text Content */}
           <div className="max-w-[42rem]">
-            <h3 className="text-4xl md:text-5xl text-center md:text-left font-bold mb-4">Your Thoughts Matter</h3>
+            <h3 className="text-4xl md:text-5xl text-center md:text-left font-bold mb-4">
+              Your Thoughts Matter
+            </h3>
             <p className="text-base leading-relaxed text-center md:text-left">
               Your feedback and questions are valuable to us. They help us to
               continually improve our services and understand how we can better
-              support you. Don&apos;t hesitate to reach out, we&apos;re here to listen and
-              assist in any way we can.
+              support you. Don&apos;t hesitate to reach out, we&apos;re here to
+              listen and assist in any way we can.
             </p>
           </div>
 
           {/* Button */}
           <a
-          href="/contact"
-          className="bg-white text-[#333] font-semibold py-3 px-8 mx-auto mt-8 md:mt-0 w-[100%] md:w-fit text-center rounded-full shadow-md hover:scale-105 transition-transform duration-200"
-        >
+            href="/contact"
+            className="bg-white text-[#333] font-semibold py-3 px-8 mx-auto mt-8 md:mt-0 w-[100%] md:w-fit text-center rounded-full shadow-md hover:scale-105 transition-transform duration-200"
+          >
             Contact Us
           </a>
         </div>
