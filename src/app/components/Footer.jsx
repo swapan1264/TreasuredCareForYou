@@ -97,7 +97,7 @@ export default function Footer() {
       </div>
       {/* Divider and Bottom Line */}
       <hr className="border-t border-pink mt-16 mb-4" />
-      <a
+      {/* <a
         href="https://my-portfolio-nine-ochre-91.vercel.app/"
         target="_blank"
         rel="noopener noreferrer"
@@ -105,7 +105,7 @@ export default function Footer() {
         <p className="text-pink text-sm text-center md:text-left"> 
           Website Design By Neeraj Manchanda © 2025
         </p>
-      </a>
+      </a> */}
     </footer>
   );
 }
