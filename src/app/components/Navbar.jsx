@@ -27,7 +27,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="w-full bg-pink py-4 shadow-lg z-20 flex justify-center hidden md:flex">
-        <div>
+        <div className="test-white">
           <a href="tel:+610392679030" className="mr-8">
             Phone: 03 9267 9030
           </a>
