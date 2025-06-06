@@ -105,7 +105,7 @@ export default function Footer() {
         <p className="text-pink text-sm text-center md:text-left"> 
           Website Design By Neeraj Manchanda © 2025
         </p>
-      </a> */}
+      </a> */} 
     </footer>
   );
 }
